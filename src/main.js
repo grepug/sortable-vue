@@ -1,5 +1,7 @@
-import sortableLists from './components/sortableLists.vue'
+import Vue from 'vue'
+import App from './App.vue'
 
-console.log(sortableLists)
-
-export default sortableLists
+new Vue({
+  el: 'body',
+  components: { App }
+})

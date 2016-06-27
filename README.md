@@ -28,7 +28,7 @@ npm run build
 You can directly `import` the file in the directory of `dist`, which is a packed vue component module.
 
 ````
-  import sortableLists from './dist/build'
+  import sortableLists from './dist/sortableLists'
 
   export default {
     components: {
@@ -36,3 +36,5 @@ You can directly `import` the file in the directory of `dist`, which is a packed
     }
   }
 ````
+
+## APIs
